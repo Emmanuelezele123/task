@@ -18,5 +18,8 @@ const server = http.createServer((req, res) => {
 `)
 
     }
+  else{
+    res.end("You just entered a wrong route ");
+  }
 })
 server.listen(5000)
